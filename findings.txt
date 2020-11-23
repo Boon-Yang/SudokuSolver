@@ -1,0 +1,16 @@
+Summarise your findings here (see specification).
+
+Note: Current results were obtained by stepping through the digits in
+ascending order, one may get different figures by reversing the order.
+
+By the number of recursive calls,
+mystery1 is extremely hard -> 421547 calls
+mystery2 is impossible to be solved,
+mystery3 is hard -> 14134 calls.
+
+The number of recursive calls increases with the number of backtracking performed.
+With more number of recursive calls, more memory has to be allocated
+to store the call stacks in the stack frame. If one solves the puzzle
+by hand following exactly the recursive backtracking algorithm, the puzzles with more
+recursive calls also mean that more trial-and-error has to be
+performed. Hence, they are harder to be solved.
